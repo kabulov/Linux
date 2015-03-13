@@ -1,0 +1,34 @@
+
+there are 3 things to mention:
+1. hardware
+2. software
+3. theory
+
+theory:
+-----
+as for the 'theory' part, the outline is to learn
+
+ -http://www.ee.surrey.ac.uk/Teaching/Unix/index.html
+ -http://structbio.vanderbilt.edu/comp/unix/index.php
+ -http://support.suso.com/supki/SSH_Tutorial_for_Linux
+ -'unix power tools' 
+ -'advanced linux programming'
+ -gentoo handbook
+ -miscellany
+ 
+ 
+hardware 
+-----
+
+regarding hardware the plan is to do following;
+ -investigate totally all metal charecteristics, parts of a 'bare metal', put all in BARE_METAL file
+ 
+software
+-----
+last but not least, software:
+
+ -install gentoo using gentoo handbook and results of investigation made in hardware part
+ -go through 'unix power tools'
+ -go through 'advanced linux programming'
+ -install xorg, investigate graphical interface related issues
+ 
