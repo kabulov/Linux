@@ -1,0 +1,25 @@
+
+what should we do in order to install the package we located somewhere (internet) :
+  
+ - locate and download the source code (usually compressed) 
+ - unpack the source code
+ - compile the code
+ - install the resulting executable
+ - set paths to the installation directory
+ 
+lets take a closer look to a compilation step:
+
+ - ./configure - creates Makefile
+ - make - compiles the Makefile obtained after ./configure
+ - make check
+ - make install
+ - make clean
+ 
+ 
+configure utility supports variety of params, e.g. --help will show them
+e.g. --prefix=SOMEPATH - for storing machine independent files, as documentation, data and config files
+     --exec-prefix - for storing machine dependent files, as executables
+     
+for unpacking one uses :
+gunzip somename.tar.gz - for *.gz files
+tar -xvf somename.tar - for *.tar files
